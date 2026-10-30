@@ -30,40 +30,36 @@
   <!-- ========================================================================= -->
   <!-- APPLE-STYLE DARK FLOATING NAVBAR                                          -->
   <!-- ========================================================================= -->
-  <header class="sticky top-3 sm:top-5 z-50 px-3 sm:px-6 w-full max-w-5xl mx-auto transition-all">
-    <div class="bg-neutral-950/90 backdrop-blur-2xl border border-white/10 shadow-2xl shadow-neutral-950/40 rounded-full px-3.5 sm:px-5 py-2 sm:py-2.5 flex items-center justify-between gap-2 sm:gap-4 text-white">
+  <header class="sticky top-3 sm:top-5 z-50 px-3 sm:px-6 w-full max-w-[980px] mx-auto transition-all">
+    <div class="bg-neutral-950/90 backdrop-blur-2xl border border-white/10 shadow-2xl shadow-neutral-950/30 rounded-full px-3.5 sm:px-5 md:px-6 py-2 sm:py-2.5 md:py-3 flex items-center justify-between gap-2 sm:gap-4 md:gap-6 text-white">
       
       <!-- Brand -->
-      <a href="#" class="flex items-center gap-2 sm:gap-2.5 shrink-0 group">
-        <div class="w-8 h-8 rounded-full bg-amber-400 text-neutral-950 flex items-center justify-center font-black text-xs sm:text-sm tracking-tighter shadow-md group-hover:scale-105 transition-transform shrink-0">
+      <a href="#" class="flex items-center gap-2.5 shrink-0 group">
+        <div class="w-8 h-8 md:w-9 md:h-9 rounded-full bg-amber-400 text-neutral-950 flex items-center justify-center font-black text-xs sm:text-sm tracking-tighter shadow-md group-hover:scale-105 transition-transform shrink-0">
           PPP
         </div>
         <div class="flex flex-col">
-          <span class="text-xs sm:text-sm md:text-base font-black tracking-tight text-white whitespace-nowrap leading-none">
+          <span class="text-xs sm:text-sm md:text-base font-black tracking-tight text-white whitespace-nowrap leading-tight">
             <span class="sm:hidden">Triple Prime</span>
             <span class="hidden sm:inline">Triple Prime Movers</span>
           </span>
-          <span class="text-[10px] font-bold text-amber-400 tracking-wider uppercase hidden sm:block">Safe • Fast • Reliable</span>
+          <span class="text-[10px] font-bold text-neutral-400 tracking-wider uppercase hidden md:block">Richmond & Houston 24/7</span>
         </div>
-        <span class="hidden lg:inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-white/10 text-neutral-300 text-[10px] font-bold shrink-0 ml-1">
-          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-          24/7 Available
-        </span>
       </a>
 
-      <!-- Quick Nav Links (Desktop) -->
-      <nav class="hidden md:flex items-center gap-6 text-xs font-bold text-neutral-300 tracking-wide whitespace-nowrap">
-        <a href="#rates" class="hover:text-amber-400 transition">Rates & Pricing</a>
-        <a href="#calculator" class="hover:text-amber-400 transition">Calculator</a>
-        <a href="#services" class="hover:text-amber-400 transition">Services</a>
-        <a href="#areas" class="hover:text-amber-400 transition">Service Areas</a>
-        <a href="#why-us" class="hover:text-amber-400 transition">Free Inclusions</a>
+      <!-- Quick Nav Links (Desktop Optimized) -->
+      <nav class="hidden md:flex items-center gap-1 lg:gap-2 text-xs font-extrabold text-neutral-300 tracking-wide whitespace-nowrap">
+        <a href="#rates" class="px-3 py-1.5 rounded-full hover:bg-white/10 hover:text-amber-400 transition">Rates</a>
+        <a href="#calculator" class="px-3 py-1.5 rounded-full hover:bg-white/10 hover:text-amber-400 transition">Calculator</a>
+        <a href="#services" class="px-3 py-1.5 rounded-full hover:bg-white/10 hover:text-amber-400 transition">Services</a>
+        <a href="#why-us" class="px-3 py-1.5 rounded-full hover:bg-white/10 hover:text-amber-400 transition">What's Free</a>
+        <a href="#areas" class="px-3 py-1.5 rounded-full hover:bg-white/10 hover:text-amber-400 transition">Areas</a>
       </nav>
 
       <!-- Right Actions: Call Pill + Mobile Sandwich Menu -->
       <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
-        <a href="tel:2818929286" class="bg-amber-400 hover:bg-amber-300 text-neutral-950 px-3.5 sm:px-4 py-1.5 sm:py-2 rounded-full font-black text-xs uppercase tracking-wider transition shadow-md flex items-center gap-1.5 shrink-0 whitespace-nowrap">
-          <svg class="w-3.5 h-3.5 stroke-[2.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+        <a href="tel:2818929286" class="bg-amber-400 hover:bg-amber-300 text-neutral-950 px-3.5 sm:px-4 md:px-5 py-1.5 sm:py-2 md:py-2.5 rounded-full font-black text-xs md:text-xs uppercase tracking-wider transition shadow-md hover:scale-[1.02] active:scale-[0.98] flex items-center gap-1.5 md:gap-2 shrink-0 whitespace-nowrap">
+          <svg class="w-3.5 h-3.5 md:w-4 md:h-4 stroke-[2.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
           <span class="sm:hidden">Call</span>
           <span class="hidden sm:inline">281-892-9286</span>
         </a>
@@ -108,7 +104,7 @@
       <!-- Main Heavy Title -->
       <h1 class="headline-black text-4xl sm:text-6xl md:text-7xl lg:text-[76px] text-neutral-950 mb-6">
         HEAVY LIFTING MADE EASY.<br class="hidden sm:inline">
-        <span class="text-amber-500 underline decoration-neutral-950 decoration-wavy decoration-2">NO HIDDEN FEES.</span>
+        <span class="text-amber-500">NO HIDDEN FEES.</span>
       </h1>
 
       <!-- Plain English Subtitle (12-year-old readable) -->
@@ -892,3 +888,4 @@
   </script>
 </body>
 </html>
+
