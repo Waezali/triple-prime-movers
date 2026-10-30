@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth overflow-x-hidden">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Triple Prime Movers • Richmond & Houston 24/7 Movers</title>
+  <meta name="description" content="Triple Prime Movers provides safe, fast, and affordable residential & commercial moving in Richmond, Houston, Katy, and Sugar Land. Starting at $80/hr with free blankets and shrink wrap.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-style: normal !important;
+    }
+    .headline-black {
+      font-weight: 900;
+      letter-spacing: -0.04em;
+      line-height: 1.04;
+    }
+    .sub-black {
+      font-weight: 800;
+      letter-spacing: -0.025em;
+    }
+  </style>
+</head>
+<body class="bg-[#fafafc] text-neutral-900 antialiased selection:bg-amber-400 selection:text-neutral-950 pb-24 md:pb-0 overflow-x-hidden pt-2 sm:pt-4">
+
+  <!-- ========================================================================= -->
+  <!-- APPLE-STYLE DARK FLOATING NAVBAR                                          -->
+  <!-- ========================================================================= -->
+  <header class="sticky top-3 sm:top-5 z-50 px-3 sm:px-6 w-full max-w-5xl mx-auto transition-all">
+    <div class="bg-neutral-950/90 backdrop-blur-2xl border border-white/10 shadow-2xl shadow-neutral-950/40 rounded-full px-3.5 sm:px-5 py-2 sm:py-2.5 flex items-center justify-between gap-2 sm:gap-4 text-white">
+      
+      <!-- Brand -->
+      <a href="#" class="flex items-center gap-2 sm:gap-2.5 shrink-0 group">
+        <div class="w-8 h-8 rounded-full bg-amber-400 text-neutral-950 flex items-center justify-center font-black text-xs sm:text-sm tracking-tighter shadow-md group-hover:scale-105 transition-transform shrink-0">
+          PPP
+        </div>
+        <div class="flex flex-col">
+          <span class="text-xs sm:text-sm md:text-base font-black tracking-tight text-white whitespace-nowrap leading-none">
+            <span class="sm:hidden">Triple Prime</span>
+            <span class="hidden sm:inline">Triple Prime Movers</span>
+          </span>
+          <span class="text-[10px] font-bold text-amber-400 tracking-wider uppercase hidden sm:block">Safe • Fast • Reliable</span>
+        </div>
+        <span class="hidden lg:inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-white/10 text-neutral-300 text-[10px] font-bold shrink-0 ml-1">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+          24/7 Available
+        </span>
+      </a>
+
+      <!-- Quick Nav Links (Desktop) -->
+      <nav class="hidden md:flex items-center gap-6 text-xs font-bold text-neutral-300 tracking-wide whitespace-nowrap">
+        <a href="#rates" class="hover:text-amber-400 transition">Rates & Pricing</a>
+        <a href="#calculator" class="hover:text-amber-400 transition">Calculator</a>
+        <a href="#services" class="hover:text-amber-400 transition">Services</a>
+        <a href="#areas" class="hover:text-amber-400 transition">Service Areas</a>
+        <a href="#why-us" class="hover:text-amber-400 transition">Free Inclusions</a>
+      </nav>
+
+      <!-- Right Actions: Call Pill + Mobile Sandwich Menu -->
+      <div class="flex items-center gap-1.5 sm:gap-2 shrink-0">
+        <a href="tel:2818929286" class="bg-amber-400 hover:bg-amber-300 text-neutral-950 px-3.5 sm:px-4 py-1.5 sm:py-2 rounded-full font-black text-xs uppercase tracking-wider transition shadow-md flex items-center gap-1.5 shrink-0 whitespace-nowrap">
+          <svg class="w-3.5 h-3.5 stroke-[2.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+          <span class="sm:hidden">Call</span>
+          <span class="hidden sm:inline">281-892-9286</span>
+        </a>
+
+        <!-- Sandwich Toggle (Mobile Only) -->
+        <button id="menu-btn" aria-label="Toggle Navigation Menu" class="md:hidden p-2 rounded-full bg-white/10 hover:bg-white/20 text-neutral-200 transition focus:outline-none">
+          <svg id="menu-icon-bars" class="w-4 h-4 stroke-[2.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/></svg>
+          <svg id="menu-icon-x" class="w-4 h-4 stroke-[2.5] hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Flyout -->
+    <div id="mobile-menu" class="hidden md:hidden mt-2 bg-neutral-950/95 backdrop-blur-2xl border border-white/10 shadow-2xl rounded-2xl p-4 text-white flex flex-col gap-3 text-sm font-bold animate-in fade-in slide-in-from-top-2 duration-200">
+      <a href="#rates" class="px-3 py-2 rounded-lg hover:bg-white/10 transition" onclick="toggleMenu()">Rates & Pricing</a>
+      <a href="#calculator" class="px-3 py-2 rounded-lg hover:bg-white/10 transition" onclick="toggleMenu()">Moving Cost Calculator</a>
+      <a href="#services" class="px-3 py-2 rounded-lg hover:bg-white/10 transition" onclick="toggleMenu()">Moving Services</a>
+      <a href="#why-us" class="px-3 py-2 rounded-lg hover:bg-white/10 transition" onclick="toggleMenu()">Free Inclusions Checklist</a>
+      <a href="#areas" class="px-3 py-2 rounded-lg hover:bg-white/10 transition" onclick="toggleMenu()">Neighborhoods & Areas</a>
+      <div class="pt-2 border-t border-white/10 flex flex-col gap-2">
+        <a href="tel:2818929286" class="w-full text-center bg-amber-400 hover:bg-amber-300 text-neutral-950 py-2.5 rounded-xl font-black text-xs uppercase tracking-wider transition">
+          Direct Call: (281) 892-9286
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================= -->
+  <!-- HERO SECTION (LIGHT MODE WITH BOLD DEEP DARK TYPOGRAPHY)                  -->
+  <!-- ========================================================================= -->
+  <section class="max-w-5xl mx-auto px-4 pt-10 sm:pt-16 pb-12 sm:pb-20">
+    <div class="text-center max-w-4xl mx-auto">
+      
+      <!-- Top Pill -->
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-neutral-100 border border-neutral-200/80 text-neutral-900 text-xs sm:text-sm font-extrabold mb-6 shadow-sm">
+        <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+        <span>Richmond • Houston • Katy • Sugar Land</span>
+        <span class="text-neutral-400">|</span>
+        <span class="text-amber-600">Open 24/7</span>
+      </div>
+
+      <!-- Main Heavy Title -->
+      <h1 class="headline-black text-4xl sm:text-6xl md:text-7xl lg:text-[76px] text-neutral-950 mb-6">
+        HEAVY LIFTING MADE EASY.<br class="hidden sm:inline">
+        <span class="text-amber-500 underline decoration-neutral-950 decoration-wavy decoration-2">NO HIDDEN FEES.</span>
+      </h1>
+
+      <!-- Plain English Subtitle (12-year-old readable) -->
+      <p class="text-lg sm:text-xl md:text-2xl font-bold text-neutral-700 max-w-2xl mx-auto mb-8 leading-snug">
+        Safe, fast, and friendly local movers. Starting at just <span class="text-neutral-950 font-black underline decoration-amber-400 decoration-4">$80 per hour</span> with free blankets, free plastic wrap, and free equipment included.
+      </p>
+
+      <!-- Hero Action Buttons -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-10">
+        <a href="tel:2818929286" class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-amber-400 hover:bg-amber-300 text-neutral-950 font-black text-base sm:text-lg shadow-xl shadow-amber-400/20 hover:scale-[1.02] active:scale-[0.98] transition flex items-center justify-center gap-3">
+          <svg class="w-5 h-5 stroke-[2.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+          <span>CALL OR TEXT (281) 892-9286</span>
+        </a>
+
+        <a href="#calculator" class="w-full sm:w-auto px-7 py-4 rounded-2xl bg-neutral-950 hover:bg-neutral-800 text-white font-extrabold text-base sm:text-lg shadow-lg shadow-neutral-950/20 hover:scale-[1.02] active:scale-[0.98] transition flex items-center justify-center gap-2.5">
+          <svg class="w-5 h-5 text-amber-400 stroke-[2.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008zm0 3h.008v.008H8.25v-.008zm0 3h.008v.008H8.25v-.008zm3-6h.008v.008H11.25v-.008zm0 3h.008v.008H11.25v-.008zm0 3h.008v.008H11.25v-.008zm3-6h.008v.008H14.25v-.008zm0 3h.008v.008H14.25v-.008zM4.5 19.5h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z"/></svg>
+          <span>Calculate Moving Cost</span>
+        </a>
+      </div>
+
+      <!-- 4 Core Trust Pillars -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-2.5 sm:gap-4 max-w-4xl mx-auto pt-4 text-left">
+        <div class="bg-white border border-neutral-200/80 rounded-2xl p-3.5 shadow-sm flex items-center gap-3">
+          <div class="w-9 h-9 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center shrink-0">
+            <svg class="w-5 h-5 stroke-[2.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"/></svg>
+          </div>
+          <div>
+            <div class="text-xs sm:text-sm font-black text-neutral-950">Insured & Bonded</div>
+            <div class="text-[11px] font-semibold text-neutral-500">Your items are protected</div>
+          </div>
+        </div>
+
+        <div class="bg-white border border-neutral-200/80 rounded-2xl p-3.5 shadow-sm flex items-center gap-3">
+          <div class="w-9 h-9 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center shrink-0">
+            <svg class="w-5 h-5 stroke-[2.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+          </div>
+          <div>
+            <div class="text-xs sm:text-sm font-black text-neutral-950">24/7 Availability</div>
+            <div class="text-[11px] font-semibold text-neutral-500">Day, night, or weekend</div>
+          </div>
+        </div>
+
+        <div class="bg-white border border-neutral-200/80 rounded-2xl p-3.5 shadow-sm flex items-center gap-3">
+          <div class="w-9 h-9 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center shrink-0">
+            <svg class="w-5 h-5 stroke-[2.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6H2.25m0 0H3m.75 0v1.5M3 12h1.5m-.75 0V7.5M3 12v3m.75 0H3m18 0h-1.5m.75 0v-3m0 0V7.5m0 4.5h1.5m-.75 0v3m0 0h1.5"/></svg>
+          </div>
+          <div>
+            <div class="text-xs sm:text-sm font-black text-neutral-950">4–6 Yrs Experience</div>
+            <div class="text-[11px] font-semibold text-neutral-500">Trained mover crew</div>
+          </div>
+        </div>
+
+        <div class="bg-white border border-neutral-200/80 rounded-2xl p-3.5 shadow-sm flex items-center gap-3">
+          <div class="w-9 h-9 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center shrink-0">
+            <svg class="w-5 h-5 stroke-[2.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H4.5a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"/></svg>
+          </div>
+          <div>
+            <div class="text-xs sm:text-sm font-black text-neutral-950">100% Free Blankets</div>
+            <div class="text-[11px] font-semibold text-neutral-500">Plus shrink wrap & dollies</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- TRANSPARENT HOURLY PRICING CARDS (BENTO GRID)                             -->
+  <!-- ========================================================================= -->
+  <section id="rates" class="max-w-5xl mx-auto px-4 py-12 sm:py-16">
+    <div class="text-center mb-10">
+      <div class="text-xs font-black uppercase tracking-widest text-amber-600 mb-2">Straightforward Honest Pricing</div>
+      <h2 class="headline-black text-3xl sm:text-5xl text-neutral-950 mb-3">
+        CHOOSE YOUR CREW SIZE.
+      </h2>
+      <p class="text-base sm:text-lg font-bold text-neutral-600 max-w-xl mx-auto">
+        Clear hourly rates with a 2-hour minimum. No surprise charges on move day.
+      </p>
+    </div>
+
+    <!-- The 3 Rate Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+      
+      <!-- Card 1: 2 Men -->
+      <div class="bg-white border border-neutral-200/90 rounded-3xl p-6 sm:p-7 shadow-lg shadow-neutral-200/40 hover:border-neutral-900 transition flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="px-3 py-1 rounded-full bg-neutral-100 text-neutral-900 text-xs font-black uppercase tracking-wider">Apartments & Studios</span>
+            <span class="text-xs font-bold text-neutral-500">2-Hr Min</span>
+          </div>
+          <div class="flex items-baseline gap-1 mb-2">
+            <span class="headline-black text-5xl sm:text-6xl text-neutral-950">$80</span>
+            <span class="text-base font-extrabold text-neutral-500">/ hour</span>
+          </div>
+          <div class="text-lg font-black text-neutral-900 mb-4">2 Professional Movers</div>
+          <p class="text-sm font-semibold text-neutral-600 mb-6">
+            Perfect for 1–2 bedroom apartments, small offices, dorms, or loading a storage unit.
+          </p>
+          <ul class="space-y-2.5 text-xs sm:text-sm font-bold text-neutral-700 mb-8">
+            <li class="flex items-center gap-2">
+              <span class="text-emerald-500 font-black">✓</span> 2 Strong, experienced movers
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-emerald-500 font-black">✓</span> Free heavy-duty moving blankets
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-emerald-500 font-black">✓</span> Free plastic shrink wrap
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-emerald-500 font-black">✓</span> Free dollies & hand trucks
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-emerald-500 font-black">✓</span> Free furniture assembly
+            </li>
+          </ul>
+        </div>
+        <a href="tel:2818929286" class="w-full text-center py-3.5 rounded-xl bg-neutral-100 hover:bg-neutral-950 hover:text-white text-neutral-950 font-black text-sm tracking-wider uppercase transition">
+          Book 2 Movers
+        </a>
+      </div>
+
+      <!-- Card 2: 3 Men (Featured / Most Popular) -->
+      <div class="bg-white border-2 border-amber-400 rounded-3xl p-6 sm:p-7 shadow-xl shadow-amber-400/10 relative flex flex-col justify-between hover:scale-[1.01] transition">
+        <div class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-amber-400 text-neutral-950 px-4 py-1 rounded-full font-black text-[11px] uppercase tracking-wider shadow-sm">
+          ★ Most Popular For Homes
+        </div>
+        <div>
+          <div class="flex items-center justify-between mb-4 mt-1">
+            <span class="px-3 py-1 rounded-full bg-amber-100 text-amber-900 text-xs font-black uppercase tracking-wider">2–3 Bedroom Homes</span>
+            <span class="text-xs font-bold text-neutral-500">2-Hr Min</span>
+          </div>
+          <div class="flex items-baseline gap-1 mb-2">
+            <span class="headline-black text-5xl sm:text-6xl text-neutral-950">$120</span>
+            <span class="text-base font-extrabold text-neutral-500">/ hour</span>
+          </div>
+          <div class="text-lg font-black text-neutral-900 mb-4">3 Professional Movers</div>
+          <p class="text-sm font-semibold text-neutral-600 mb-6">
+            The sweet spot for speed and savings. Cuts your total moving time almost in half.
+          </p>
+          <ul class="space-y-2.5 text-xs sm:text-sm font-bold text-neutral-700 mb-8">
+            <li class="flex items-center gap-2">
+              <span class="text-emerald-500 font-black">✓</span> 3 Dedicated mover specialists
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-emerald-500 font-black">✓</span> 1 Truck packer + 2 runners
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-emerald-500 font-black">✓</span> Free heavy-duty blankets
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-emerald-500 font-black">✓</span> Free plastic shrink wrap
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-emerald-500 font-black">✓</span> Free dollies, straps & tools
+            </li>
+          </ul>
+        </div>
+        <a href="tel:2818929286" class="w-full text-center py-3.5 rounded-xl bg-amber-400 hover:bg-amber-300 text-neutral-950 font-black text-sm tracking-wider uppercase transition shadow-md">
+          Book 3 Movers ($120/hr)
+        </a>
+      </div>
+
+      <!-- Card 3: 4 Men -->
+      <div class="bg-white border border-neutral-200/90 rounded-3xl p-6 sm:p-7 shadow-lg shadow-neutral-200/40 hover:border-neutral-900 transition flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="px-3 py-1 rounded-full bg-neutral-100 text-neutral-900 text-xs font-black uppercase tracking-wider">Big Homes & Offices</span>
+            <span class="text-xs font-bold text-neutral-500">2-Hr Min</span>
+          </div>
+          <div class="flex items-baseline gap-1 mb-2">
+            <span class="headline-black text-5xl sm:text-6xl text-neutral-950">$140</span>
+            <span class="text-base font-extrabold text-neutral-500">/ hour</span>
+          </div>
+          <div class="text-lg font-black text-neutral-900 mb-4">4 Professional Movers</div>
+          <p class="text-sm font-semibold text-neutral-600 mb-6">
+            For 3–5 bedroom houses, warehouses, office buildings, and heavy furniture moves.
+          </p>
+          <ul class="space-y-2.5 text-xs sm:text-sm font-bold text-neutral-700 mb-8">
+            <li class="flex items-center gap-2">
+              <span class="text-emerald-500 font-black">✓</span> 4 Full-time mover experts
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-emerald-500 font-black">✓</span> Maximum moving speed
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-emerald-500 font-black">✓</span> Free heavy-duty blankets
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-emerald-500 font-black">✓</span> Free shrink wrap & straps
+            </li>
+            <li class="flex items-center gap-2">
+              <span class="text-emerald-500 font-black">✓</span> Heavy equipment handling
+            </li>
+          </ul>
+        </div>
+        <a href="tel:2818929286" class="w-full text-center py-3.5 rounded-xl bg-neutral-100 hover:bg-neutral-950 hover:text-white text-neutral-950 font-black text-sm tracking-wider uppercase transition">
+          Book 4 Movers
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Clear One-Time Truck & Travel Fees -->
+    <div class="bg-neutral-900 text-white rounded-3xl p-6 sm:p-8 shadow-xl">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div class="max-w-xl">
+          <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-400/20 text-amber-300 text-xs font-black uppercase tracking-wider mb-2">
+            100% Transparent Fee Policy
+          </div>
+          <h3 class="text-xl sm:text-2xl font-black text-white mb-2">
+            Truck & Travel Options (One-Time Flat Fee)
+          </h3>
+          <p class="text-xs sm:text-sm font-semibold text-neutral-400 leading-relaxed">
+            Need us to bring a moving truck? Just add the flat trip fee below. If you already have your own U-Haul, PODS, or truck, we only charge a simple $40 labor travel fee!
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 shrink-0">
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-3.5 text-center">
+            <div class="text-[11px] font-bold text-neutral-400 uppercase">Labor Only</div>
+            <div class="text-2xl font-black text-white">$40</div>
+            <div class="text-[10px] text-neutral-400">You have truck/PODS</div>
+          </div>
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-3.5 text-center">
+            <div class="text-[11px] font-bold text-neutral-400 uppercase">16ft Truck</div>
+            <div class="text-2xl font-black text-amber-400">$60</div>
+            <div class="text-[10px] text-neutral-400">1-2 bedroom moves</div>
+          </div>
+          <div class="bg-white/5 border border-white/10 rounded-2xl p-3.5 text-center">
+            <div class="text-[11px] font-bold text-neutral-400 uppercase">26ft Truck</div>
+            <div class="text-2xl font-black text-amber-400">$80</div>
+            <div class="text-[10px] text-neutral-400">Large home moves</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- INTERACTIVE MOVING COST CALCULATOR                                        -->
+  <!-- ========================================================================= -->
+  <section id="calculator" class="max-w-5xl mx-auto px-4 py-12 sm:py-16">
+    <div class="bg-white border-2 border-neutral-900 rounded-3xl p-6 sm:p-10 shadow-2xl shadow-neutral-300/40">
+      
+      <div class="text-center max-w-xl mx-auto mb-8">
+        <span class="px-3.5 py-1 rounded-full bg-amber-100 text-amber-950 font-black text-xs uppercase tracking-wider">
+          Instant Price Estimator
+        </span>
+        <h2 class="headline-black text-3xl sm:text-4xl text-neutral-950 mt-3 mb-2">
+          HOW MUCH WILL YOUR MOVE COST?
+        </h2>
+        <p class="text-sm sm:text-base font-bold text-neutral-600">
+          Pick your crew size, estimated hours, and truck needs to see your price right now.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+        
+        <!-- Controls Column -->
+        <div class="lg:col-span-7 space-y-6">
+          
+          <!-- Step 1: Crew Size -->
+          <div>
+            <label class="block text-xs font-black uppercase tracking-wider text-neutral-700 mb-2">
+              1. Select Movers Team Size:
+            </label>
+            <div class="grid grid-cols-3 gap-2 sm:gap-3">
+              <button type="button" onclick="setCrew(80, this)" class="crew-btn active-choice py-3 px-2 rounded-xl border-2 border-neutral-900 bg-neutral-950 text-white font-black text-xs sm:text-sm text-center transition">
+                <div>2 Movers</div>
+                <div class="text-[11px] font-bold text-amber-400">$80/hr</div>
+              </button>
+              <button type="button" onclick="setCrew(120, this)" class="crew-btn py-3 px-2 rounded-xl border-2 border-neutral-200 bg-neutral-50 text-neutral-800 font-black text-xs sm:text-sm text-center transition">
+                <div>3 Movers</div>
+                <div class="text-[11px] font-bold text-neutral-500">$120/hr</div>
+              </button>
+              <button type="button" onclick="setCrew(140, this)" class="crew-btn py-3 px-2 rounded-xl border-2 border-neutral-200 bg-neutral-50 text-neutral-800 font-black text-xs sm:text-sm text-center transition">
+                <div>4 Movers</div>
+                <div class="text-[11px] font-bold text-neutral-500">$140/hr</div>
+              </button>
+            </div>
+          </div>
+
+          <!-- Step 2: Estimated Hours -->
+          <div>
+            <div class="flex items-center justify-between mb-2">
+              <label class="text-xs font-black uppercase tracking-wider text-neutral-700">
+                2. Estimated Move Hours:
+              </label>
+              <span id="hours-display" class="text-sm font-black text-neutral-950 bg-amber-100 px-2.5 py-0.5 rounded-full">
+                3 Hours
+              </span>
+            </div>
+            <input id="hours-slider" type="range" min="2" max="8" value="3" step="1" oninput="updateHours(this.value)" class="w-full h-3 bg-neutral-200 rounded-lg appearance-none cursor-pointer accent-amber-500">
+            <div class="flex justify-between text-[11px] font-bold text-neutral-400 mt-1">
+              <span>2 hrs (min)</span>
+              <span>3 hrs</span>
+              <span>4 hrs</span>
+              <span>5 hrs</span>
+              <span>6 hrs</span>
+              <span>8+ hrs</span>
+            </div>
+          </div>
+
+          <!-- Step 3: Truck Options -->
+          <div>
+            <label class="block text-xs font-black uppercase tracking-wider text-neutral-700 mb-2">
+              3. Truck or Labor Only?
+            </label>
+            <div class="grid grid-cols-3 gap-2 sm:gap-3">
+              <button type="button" onclick="setTruck(40, this)" class="truck-btn py-2.5 px-2 rounded-xl border-2 border-neutral-200 bg-neutral-50 text-neutral-800 font-black text-xs text-center transition">
+                <div>Labor Only</div>
+                <div class="text-[10px] font-bold text-neutral-500">+$40 trip</div>
+              </button>
+              <button type="button" onclick="setTruck(60, this)" class="truck-btn active-choice py-2.5 px-2 rounded-xl border-2 border-neutral-900 bg-neutral-950 text-white font-black text-xs text-center transition">
+                <div>16ft Truck</div>
+                <div class="text-[10px] font-bold text-amber-400">+$60 trip</div>
+              </button>
+              <button type="button" onclick="setTruck(80, this)" class="truck-btn py-2.5 px-2 rounded-xl border-2 border-neutral-200 bg-neutral-50 text-neutral-800 font-black text-xs text-center transition">
+                <div>26ft Truck</div>
+                <div class="text-[10px] font-bold text-neutral-500">+$80 trip</div>
+              </button>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Result Box Column -->
+        <div class="lg:col-span-5 bg-neutral-950 text-white rounded-2xl p-6 sm:p-7 text-center flex flex-col justify-between shadow-xl">
+          <div>
+            <div class="text-xs font-black uppercase tracking-wider text-neutral-400 mb-1">
+              Estimated Move Total
+            </div>
+            <div id="calc-total" class="headline-black text-5xl sm:text-6xl text-amber-400 my-2">
+              $300
+            </div>
+            <div class="text-xs font-bold text-neutral-300 mb-4" id="calc-breakdown">
+              (3 hrs @ $80/hr = $240) + $60 16ft Truck
+            </div>
+            <div class="p-3 rounded-xl bg-white/10 text-[11px] font-semibold text-neutral-300 text-left space-y-1 mb-6">
+              <div class="text-amber-400 font-black uppercase text-[10px] tracking-wider">Includes For Free:</div>
+              <div>• Free heavy furniture blankets</div>
+              <div>• Free shrink wrap & tie straps</div>
+              <div>• Free hand dollies & assembly</div>
+              <div>• Zero hidden travel fees</div>
+            </div>
+          </div>
+
+          <a id="calc-sms-btn" href="sms:2818929286?&body=Hi%20Triple%20Prime%20Movers,%20I%20used%20your%20website%20calculator%20for%20an%20estimate%20($300%20total%20for%203%20hours).%20Are%20you%20available?" class="w-full py-3.5 rounded-xl bg-amber-400 hover:bg-amber-300 text-neutral-950 font-black text-sm tracking-wider uppercase transition shadow-md flex items-center justify-center gap-2">
+            <span>Lock In This Price By Text</span>
+            <svg class="w-4 h-4 stroke-[2.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- FREE INCLUSIONS (VALUE SHOWCASE)                                          -->
+  <!-- ========================================================================= -->
+  <section id="why-us" class="max-w-5xl mx-auto px-4 py-12 sm:py-16">
+    <div class="text-center mb-10">
+      <div class="text-xs font-black uppercase tracking-widest text-amber-600 mb-2">Protection & Equipment</div>
+      <h2 class="headline-black text-3xl sm:text-5xl text-neutral-950 mb-3">
+        WHAT YOU GET FREE ON EVERY MOVE.
+      </h2>
+      <p class="text-base sm:text-lg font-bold text-neutral-600 max-w-xl mx-auto">
+        Other movers charge extra for blankets and tape. With Triple Prime Movers, it's 100% free.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+      
+      <div class="bg-white border border-neutral-200/90 rounded-2xl p-5 sm:p-6 shadow-sm">
+        <div class="w-10 h-10 rounded-xl bg-amber-100 text-neutral-950 flex items-center justify-center font-black text-lg mb-4">
+          📦
+        </div>
+        <h3 class="text-base sm:text-lg font-black text-neutral-950 mb-1">Free Moving Blankets</h3>
+        <p class="text-xs sm:text-sm font-semibold text-neutral-600 leading-relaxed">
+          Heavy quilted blankets wrap your wood dressers, tables, mirrors, and TV stands so nothing gets scratched.
+        </p>
+      </div>
+
+      <div class="bg-white border border-neutral-200/90 rounded-2xl p-5 sm:p-6 shadow-sm">
+        <div class="w-10 h-10 rounded-xl bg-amber-100 text-neutral-950 flex items-center justify-center font-black text-lg mb-4">
+          🛡️
+        </div>
+        <h3 class="text-base sm:text-lg font-black text-neutral-950 mb-1">Free Shrink Plastic Wrap</h3>
+        <p class="text-xs sm:text-sm font-semibold text-neutral-600 leading-relaxed">
+          Tough industrial plastic wrap holds couch cushions tight and keeps drawers securely closed during the move.
+        </p>
+      </div>
+
+      <div class="bg-white border border-neutral-200/90 rounded-2xl p-5 sm:p-6 shadow-sm">
+        <div class="w-10 h-10 rounded-xl bg-amber-100 text-neutral-950 flex items-center justify-center font-black text-lg mb-4">
+          🚚
+        </div>
+        <h3 class="text-base sm:text-lg font-black text-neutral-950 mb-1">Free Heavy Dollies</h3>
+        <p class="text-xs sm:text-sm font-semibold text-neutral-600 leading-relaxed">
+          Four-wheel appliance dollies and hand trucks ensure refrigerators, washers, and big dressers roll safely.
+        </p>
+      </div>
+
+      <div class="bg-white border border-neutral-200/90 rounded-2xl p-5 sm:p-6 shadow-sm">
+        <div class="w-10 h-10 rounded-xl bg-amber-100 text-neutral-950 flex items-center justify-center font-black text-lg mb-4">
+          🔧
+        </div>
+        <h3 class="text-base sm:text-lg font-black text-neutral-950 mb-1">Free Bed & Furniture Assembly</h3>
+        <p class="text-xs sm:text-sm font-semibold text-neutral-600 leading-relaxed">
+          We take bed frames, dining tables, and desks apart at the old house and put them back together at the new one.
+        </p>
+      </div>
+
+      <div class="bg-white border border-neutral-200/90 rounded-2xl p-5 sm:p-6 shadow-sm">
+        <div class="w-10 h-10 rounded-xl bg-amber-100 text-neutral-950 flex items-center justify-center font-black text-lg mb-4">
+          🔒
+        </div>
+        <h3 class="text-base sm:text-lg font-black text-neutral-950 mb-1">Free Tie-Down Straps</h3>
+        <p class="text-xs sm:text-sm font-semibold text-neutral-600 leading-relaxed">
+          Locking ratchet straps keep tall furniture anchored tightly inside the truck so nothing shifts in transit.
+        </p>
+      </div>
+
+      <div class="bg-white border border-neutral-200/90 rounded-2xl p-5 sm:p-6 shadow-sm">
+        <div class="w-10 h-10 rounded-xl bg-amber-100 text-neutral-950 flex items-center justify-center font-black text-lg mb-4">
+          ⭐
+        </div>
+        <h3 class="text-base sm:text-lg font-black text-neutral-950 mb-1">Licensed & Bonded</h3>
+        <p class="text-xs sm:text-sm font-semibold text-neutral-600 leading-relaxed">
+          Fully verified Texas moving business. 4 to 6 years of experience on every mover in our uniform.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- SERVICES SECTION (PLAIN ENGLISH BENTO CARDS)                              -->
+  <!-- ========================================================================= -->
+  <section id="services" class="max-w-5xl mx-auto px-4 py-12 sm:py-16">
+    <div class="text-center mb-10">
+      <div class="text-xs font-black uppercase tracking-widest text-amber-600 mb-2">What We Do</div>
+      <h2 class="headline-black text-3xl sm:text-5xl text-neutral-950 mb-3">
+        EVERY KIND OF MOVE YOU NEED.
+      </h2>
+      <p class="text-base sm:text-lg font-bold text-neutral-600 max-w-xl mx-auto">
+        Whether you're moving across the street or across Texas, we have the right team for the job.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      
+      <!-- Service 1 -->
+      <div class="bg-white border border-neutral-200/80 rounded-3xl p-6 sm:p-8 shadow-sm flex gap-5">
+        <div class="w-12 h-12 rounded-2xl bg-neutral-950 text-amber-400 flex items-center justify-center font-black text-xl shrink-0">
+          🏠
+        </div>
+        <div>
+          <h3 class="text-xl font-black text-neutral-950 mb-2">Home & Apartment Moving</h3>
+          <p class="text-sm font-semibold text-neutral-600 leading-relaxed mb-3">
+            Houses, condos, townhomes, and high-rise apartments. We easily handle stairs, narrow hallways, and elevator reservations.
+          </p>
+          <span class="inline-flex text-xs font-black text-amber-600 uppercase tracking-wider">
+            Available 24/7 For Same-Day Moves →
+          </span>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="bg-white border border-neutral-200/80 rounded-3xl p-6 sm:p-8 shadow-sm flex gap-5">
+        <div class="w-12 h-12 rounded-2xl bg-neutral-950 text-amber-400 flex items-center justify-center font-black text-xl shrink-0">
+          🏢
+        </div>
+        <div>
+          <h3 class="text-xl font-black text-neutral-950 mb-2">Commercial & Office Moves</h3>
+          <p class="text-sm font-semibold text-neutral-600 leading-relaxed mb-3">
+            Desks, cubicles, office chairs, conference tables, and file cabinets. We move businesses on weekends so your team doesn't miss work.
+          </p>
+          <span class="inline-flex text-xs font-black text-amber-600 uppercase tracking-wider">
+            Fast Weekend & Night Relocation →
+          </span>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="bg-white border border-neutral-200/80 rounded-3xl p-6 sm:p-8 shadow-sm flex gap-5">
+        <div class="w-12 h-12 rounded-2xl bg-neutral-950 text-amber-400 flex items-center justify-center font-black text-xl shrink-0">
+          📦
+        </div>
+        <div>
+          <h3 class="text-xl font-black text-neutral-950 mb-2">PODS, U-Haul & Storage Loading</h3>
+          <p class="text-sm font-semibold text-neutral-600 leading-relaxed mb-3">
+            Rented your own truck or storage container? Hire our experienced muscle to load or unload it tight and safe in just 2 hours.
+          </p>
+          <span class="inline-flex text-xs font-black text-amber-600 uppercase tracking-wider">
+            Labor Only: Just $40 Trip Fee →
+          </span>
+        </div>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="bg-white border border-neutral-200/80 rounded-3xl p-6 sm:p-8 shadow-sm flex gap-5">
+        <div class="w-12 h-12 rounded-2xl bg-neutral-950 text-amber-400 flex items-center justify-center font-black text-xl shrink-0">
+          🏥
+        </div>
+        <div>
+          <h3 class="text-xl font-black text-neutral-950 mb-2">Heavy Equipment & Medical Moving</h3>
+          <p class="text-sm font-semibold text-neutral-600 leading-relaxed mb-3">
+            Hospital machinery, clinic equipment, heavy safes, and warehouse supplies. Handled by movers with 4+ years of specialized experience.
+          </p>
+          <span class="inline-flex text-xs font-black text-amber-600 uppercase tracking-wider">
+            Heavy-Duty Equipment Ready →
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- NEIGHBORHOOD SERVICE AREAS                                                -->
+  <!-- ========================================================================= -->
+  <section id="areas" class="max-w-5xl mx-auto px-4 py-12 sm:py-16">
+    <div class="bg-neutral-900 text-white rounded-3xl p-6 sm:p-10 shadow-2xl">
+      <div class="text-center max-w-2xl mx-auto mb-8">
+        <span class="px-3 py-1 rounded-full bg-white/10 text-amber-400 font-black text-xs uppercase tracking-wider">
+          Coverage Radius
+        </span>
+        <h2 class="headline-black text-3xl sm:text-4xl text-white mt-3 mb-2">
+          AREAS WE SERVICE DAILY.
+        </h2>
+        <p class="text-xs sm:text-sm font-bold text-neutral-400">
+          Based in Richmond & Houston. We dispatch our trucks all over the greater metro area.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5 sm:gap-3 text-center mb-8">
+        <div class="bg-white/5 border border-white/10 rounded-xl p-3 font-extrabold text-xs sm:text-sm text-neutral-200">
+          Richmond, TX
+        </div>
+        <div class="bg-white/5 border border-white/10 rounded-xl p-3 font-extrabold text-xs sm:text-sm text-neutral-200">
+          Houston, TX
+        </div>
+        <div class="bg-white/5 border border-white/10 rounded-xl p-3 font-extrabold text-xs sm:text-sm text-neutral-200">
+          Katy, TX
+        </div>
+        <div class="bg-white/5 border border-white/10 rounded-xl p-3 font-extrabold text-xs sm:text-sm text-neutral-200">
+          Sugar Land, TX
+        </div>
+        <div class="bg-white/5 border border-white/10 rounded-xl p-3 font-extrabold text-xs sm:text-sm text-neutral-200">
+          Rosenberg, TX
+        </div>
+        <div class="bg-white/5 border border-white/10 rounded-xl p-3 font-extrabold text-xs sm:text-sm text-neutral-200">
+          Missouri City, TX
+        </div>
+        <div class="bg-white/5 border border-white/10 rounded-xl p-3 font-extrabold text-xs sm:text-sm text-neutral-200">
+          Stafford, TX
+        </div>
+        <div class="bg-white/5 border border-white/10 rounded-xl p-3 font-extrabold text-xs sm:text-sm text-neutral-200">
+          Pearland, TX
+        </div>
+        <div class="bg-white/5 border border-white/10 rounded-xl p-3 font-extrabold text-xs sm:text-sm text-neutral-200">
+          Cypress, TX
+        </div>
+        <div class="bg-white/5 border border-white/10 rounded-xl p-3 font-extrabold text-xs sm:text-sm text-neutral-200">
+          Spring, TX
+        </div>
+        <div class="bg-white/5 border border-white/10 rounded-xl p-3 font-extrabold text-xs sm:text-sm text-neutral-200">
+          The Woodlands, TX
+        </div>
+        <div class="bg-white/5 border border-white/10 rounded-xl p-3 font-extrabold text-xs sm:text-sm text-neutral-200">
+          Tomball, TX
+        </div>
+      </div>
+
+      <div class="text-center pt-2">
+        <p class="text-xs font-semibold text-neutral-400 mb-4">
+          Outside these cities? We also do long-distance moves anywhere in Texas!
+        </p>
+        <a href="tel:2818929286" class="inline-flex items-center gap-2 text-xs font-black text-amber-400 hover:text-amber-300 uppercase tracking-wider underline">
+          Call (281) 892-9286 To Check Your Address
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- 60-SECOND DIRECT QUOTE / TEXT SECTION                                     -->
+  <!-- ========================================================================= -->
+  <section id="contact" class="max-w-5xl mx-auto px-4 py-12 sm:py-16">
+    <div class="bg-white border-2 border-neutral-900 rounded-3xl p-6 sm:p-10 shadow-xl text-center max-w-3xl mx-auto">
+      <div class="w-14 h-14 rounded-2xl bg-amber-400 text-neutral-950 flex items-center justify-center font-black text-2xl mx-auto mb-4">
+        ⚡
+      </div>
+      <h2 class="headline-black text-3xl sm:text-4xl text-neutral-950 mb-3">
+        NEED A MOVING QUOTE RIGHT NOW?
+      </h2>
+      <p class="text-base sm:text-lg font-bold text-neutral-600 mb-8 max-w-lg mx-auto">
+        Text us your move date, pickup city, and what you need moved. We reply in under 5 minutes with an exact price!
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="tel:2818929286" class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-amber-400 hover:bg-amber-300 text-neutral-950 font-black text-base shadow-lg shadow-amber-400/20 transition flex items-center justify-center gap-2">
+          <svg class="w-5 h-5 stroke-[2.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+          <span>CALL (281) 892-9286</span>
+        </a>
+
+        <a href="sms:2818929286?&body=Hi%20Triple%20Prime%20Movers,%20I%20need%20a%20free%20quote%20for%20a%20move%20in%20Houston." class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-neutral-950 hover:bg-neutral-800 text-white font-black text-base shadow-lg transition flex items-center justify-center gap-2">
+          <svg class="w-5 h-5 text-amber-400 stroke-[2.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a.75.75 0 01-1.074-.85 9.96 9.96 0 001.07-2.908C3.896 15.772 3 13.987 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z"/></svg>
+          <span>TEXT US FOR FREE ESTIMATE</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================= -->
+  <!-- DARK LUXURY FOOTER                                                        -->
+  <!-- ========================================================================= -->
+  <footer class="bg-neutral-950 text-neutral-400 pt-16 pb-28 md:pb-16 border-t border-neutral-800">
+    <div class="max-w-5xl mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+        
+        <!-- Brand Col -->
+        <div class="md:col-span-2">
+          <div class="flex items-center gap-2.5 mb-4">
+            <div class="w-8 h-8 rounded-full bg-amber-400 text-neutral-950 flex items-center justify-center font-black text-sm">
+              PPP
+            </div>
+            <span class="text-xl font-black text-white tracking-tight">TRIPLE PRIME MOVERS</span>
+          </div>
+          <p class="text-xs sm:text-sm font-semibold text-neutral-400 max-w-sm mb-4 leading-relaxed">
+            Safe, fast, and reliable residential & commercial moving in Richmond, Houston, Katy, Sugar Land, and surrounding Texas communities. Insured & bonded with zero hidden fees.
+          </p>
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-bold text-neutral-300">
+            <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+            24/7 Hours • Always Ready To Move You
+          </div>
+        </div>
+
+        <!-- Hourly Rates Col -->
+        <div>
+          <h4 class="text-xs font-black uppercase tracking-wider text-white mb-4">Hourly Rates</h4>
+          <ul class="space-y-2 text-xs font-bold text-neutral-400">
+            <li><span class="text-white">2 Movers:</span> $80 / hr (2-hr min)</li>
+            <li><span class="text-white">3 Movers:</span> $120 / hr (2-hr min)</li>
+            <li><span class="text-white">4 Movers:</span> $140 / hr (2-hr min)</li>
+            <li class="pt-2 text-amber-400 font-extrabold">Free Blankets & Shrink Wrap</li>
+            <li class="text-amber-400 font-extrabold">Free Dollies & Assembly</li>
+          </ul>
+        </div>
+
+        <!-- Contact Col -->
+        <div>
+          <h4 class="text-xs font-black uppercase tracking-wider text-white mb-4">Direct Contact</h4>
+          <ul class="space-y-2 text-xs font-bold text-neutral-400">
+            <li><a href="tel:2818929286" class="text-amber-400 hover:text-amber-300 text-sm font-black">📞 (281) 892-9286</a></li>
+            <li>Richmond, TX & Houston Areas</li>
+            <li>Call or Text 24/7</li>
+            <li class="text-emerald-400 pt-1">✓ Insured & Bonded</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="border-t border-neutral-900 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-semibold text-neutral-400">
+        <div>
+          © 2026 Triple Prime Movers. All rights reserved.
+        </div>
+        <div class="flex items-center gap-4 text-neutral-400">
+          <span>Richmond, TX</span>
+          <span>•</span>
+          <span>Houston, TX</span>
+          <span>•</span>
+          <span>Sugar Land, TX</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================= -->
+  <!-- MOBILE FLOATING BOTTOM ACTION BAR                                         -->
+  <!-- ========================================================================= -->
+  <div class="md:hidden fixed bottom-3 left-3 right-3 z-50">
+    <div class="bg-neutral-950/95 backdrop-blur-2xl border border-white/15 rounded-full p-1.5 shadow-2xl flex items-center gap-1.5 text-white">
+      <a href="tel:2818929286" class="flex-1 bg-amber-400 hover:bg-amber-300 text-neutral-950 font-black text-xs uppercase tracking-wider py-3 rounded-full text-center transition flex items-center justify-center gap-1.5 shadow-md">
+        <svg class="w-4 h-4 stroke-[2.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
+        <span>Call (281) 892-9286</span>
+      </a>
+      <a href="sms:2818929286?&body=Hi%20Triple%20Prime%20Movers,%20I%20need%20a%20moving%20quote." class="px-4 bg-white/10 hover:bg-white/20 text-white font-extrabold text-xs uppercase tracking-wider py-3 rounded-full text-center transition flex items-center justify-center gap-1">
+        <span>Text</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- JAVASCRIPT: INTERACTIVE CALCULATOR & MENU                                 -->
+  <!-- ========================================================================= -->
+  <script>
+    // Calculator State
+    let currentHourlyRate = 80; // Default: 2 Men ($80)
+    let currentHours = 3;       // Default: 3 Hours
+    let currentTruckFee = 60;   // Default: 16ft Truck ($60)
+
+    function recalculate() {
+      const laborCost = currentHourlyRate * currentHours;
+      const total = laborCost + currentTruckFee;
+      
+      const totalEl = document.getElementById('calc-total');
+      const breakdownEl = document.getElementById('calc-breakdown');
+      const smsBtn = document.getElementById('calc-sms-btn');
+
+      totalEl.textContent = '$' + total;
+      
+      let truckLabel = '$60 16ft Truck';
+      if (currentTruckFee === 40) truckLabel = '$40 Labor Travel Fee';
+      else if (currentTruckFee === 80) truckLabel = '$80 26ft Truck';
+
+      let crewLabel = currentHourlyRate === 80 ? '2 Movers' : currentHourlyRate === 120 ? '3 Movers' : '4 Movers';
+
+      breakdownEl.textContent = `(${currentHours} hrs @ $${currentHourlyRate}/hr = $${laborCost}) + ${truckLabel}`;
+
+      const smsBody = encodeURIComponent(`Hi Triple Prime Movers, I used your website calculator: ${crewLabel} for ${currentHours} hours (${truckLabel}) = $${total} estimate. Are you available?`);
+      smsBtn.href = `sms:2818929286?&body=${smsBody}`;
+    }
+
+    function setCrew(rate, btn) {
+      currentHourlyRate = rate;
+      document.querySelectorAll('.crew-btn').forEach(b => {
+        b.className = 'crew-btn py-3 px-2 rounded-xl border-2 border-neutral-200 bg-neutral-50 text-neutral-800 font-black text-xs sm:text-sm text-center transition';
+        const sub = b.querySelector('div:last-child');
+        if (sub) sub.className = 'text-[11px] font-bold text-neutral-500';
+      });
+      btn.className = 'crew-btn active-choice py-3 px-2 rounded-xl border-2 border-neutral-900 bg-neutral-950 text-white font-black text-xs sm:text-sm text-center transition';
+      const activeSub = btn.querySelector('div:last-child');
+      if (activeSub) activeSub.className = 'text-[11px] font-bold text-amber-400';
+      recalculate();
+    }
+
+    function updateHours(val) {
+      currentHours = parseInt(val, 10);
+      document.getElementById('hours-display').textContent = currentHours + ' Hours';
+      recalculate();
+    }
+
+    function setTruck(fee, btn) {
+      currentTruckFee = fee;
+      document.querySelectorAll('.truck-btn').forEach(b => {
+        b.className = 'truck-btn py-2.5 px-2 rounded-xl border-2 border-neutral-200 bg-neutral-50 text-neutral-800 font-black text-xs text-center transition';
+        const sub = b.querySelector('div:last-child');
+        if (sub) sub.className = 'text-[10px] font-bold text-neutral-500';
+      });
+      btn.className = 'truck-btn active-choice py-2.5 px-2 rounded-xl border-2 border-neutral-900 bg-neutral-950 text-white font-black text-xs text-center transition';
+      const activeSub = btn.querySelector('div:last-child');
+      if (activeSub) activeSub.className = 'text-[10px] font-bold text-amber-400';
+      recalculate();
+    }
+
+    // Mobile Menu Toggle
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const iconBars = document.getElementById('menu-icon-bars');
+    const iconX = document.getElementById('menu-icon-x');
+
+    function toggleMenu() {
+      const isHidden = mobileMenu.classList.contains('hidden');
+      if (isHidden) {
+        mobileMenu.classList.remove('hidden');
+        iconBars.classList.add('hidden');
+        iconX.classList.remove('hidden');
+      } else {
+        mobileMenu.classList.add('hidden');
+        iconBars.classList.remove('hidden');
+        iconX.classList.add('hidden');
+      }
+    }
+
+    if (menuBtn) {
+      menuBtn.addEventListener('click', toggleMenu);
+    }
+  </script>
+</body>
+</html>
